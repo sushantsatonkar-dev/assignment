@@ -1,0 +1,18 @@
+# Ignore Python & Django files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+db.sqlite3
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment variables
+.env
+
+# Ignore migrations cache
+**/migrations/__pycache__/
+**/migrations/*.pyc
